@@ -128,7 +128,7 @@ if (isset($_GET['chapter'])) {
     switch ($chapter) {
         case 'about':
            
-            echo '<p>In my spare time, I enjoy going out with friends, as well as singing, dancing, and playing the guitar. During the summer, I love driving my 1980 Triumph TR7 oldtimer. The rest of my time is spent programming, listening to \'80s rock music, occasionally gaming (with OpenTTD being a favorite), and watching series. My top series are \'Doctor Who,\' \'Stargate,\' and \'The Mentalist.\'</p>';
+            echo '<p>I am Dustin Hendriks, a software engineer and tech editor. I am 23 years old and live in The Netherlands. In my spare time, I enjoy going out with friends, as well as singing, dancing, and playing the guitar. During the summer, I love driving my 1980 Triumph TR7 oldtimer. The rest of my time is spent programming, listening to \'80s rock music, occasionally gaming (with OpenTTD being a favorite), and watching series. My top series are \'Doctor Who,\' \'Stargate,\' and \'The Mentalist.\'</p>';
     
             echo '<div style="display:flex; flex-wrap:wrap; gap:10px; justify-content:left; align-items:center; margin-bottom:10px;">';
             echo '<img src="Outside.jpg" alt="Outdoors" style="flex: 1 1 auto; width: calc(50% - 5px); max-width: 300px; height: auto;">';
