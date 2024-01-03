@@ -182,14 +182,14 @@ if (isset($_GET['chapter'])) {
                 break;
         case 'certificates':
             echo '<ul>';
-            echo '<li><a href="https://drive.google.com/file/d/1D00pVn1TmEDzqkhh297tIcU_lOy2KN7F/view" target="_blank">Private Investigator (Particulier Onderzoeker) - Jan 2023</a></li>';
-            echo '<li><a href="https://drive.google.com/file/d/1ANM7tgX9M07sVa0NbAaQ7vnKqw4PZs7/view" target="_blank">Marriage Officiant (Buitengewoon Ambtenaar Burgerlijke Stand) - Jan 2023</a></li>';
-            echo '<li><a href="https://drive.google.com/file/d/190MFsSc8LXnYN6f1vzo0Eor--50TPzKgI/view" target="_blank">Certificate of Competence - Jun 2022</a></li>';
-            echo '<li><a href="https://drive.google.com/file/d/1L6tvjE0vI1FCYuhdpiEAkL0SOH8HgbLb/view" target="_blank">Basic Life Support (BLS) - Apr 2022</a></li>';
-            echo '<li><a href="https://drive.google.com/file/d/1AdtMSn0hILGaAlK3XJhPwJ5Xk3H4RsFA/view" target="_blank">Minor Certificate (IVL) - Feb 2022</a></li>';
+            echo '<li><a href="https://drive.google.com/file/d/1DOQnVn1TmEDZqkhhZ97tlCU_l0YzKN7F/view" target="_blank">Private Investigator (Particulier Onderzoeker) - Jan 2023</a></li>';
+            echo '<li><a href="https://drive.google.com/file/d/1ANM7tgXQM07sVa0NbAaQ7vnKqWZ4PZsT/view" target="_blank">Marriage Officiant (Buitengewoon Ambtenaar Burgerlijke Stand) - Jan 2023</a></li>';
+            echo '<li><a href="https://drive.google.com/file/d/190MfSSc8LXnYN6f1vzoOEor-50TPZkGl/view" target="_blank">Certificate of Competence - Jun 2022</a></li>';
+            echo '<li><a href="https://drive.google.com/file/d/1L6vjvEOvlIFCyuhdpiEAkL0SOH8HgbLb/view" target="_blank">Basic Life Support (BLS) - Apr 2022</a></li>';
+            echo '<li><a href="https://drive.google.com/file/d/1AdtMSnOhLlGaAlk3XJhJpW5Xk3H4RsFA/view" target="_blank">Minor Certificate (IVL) - Feb 2022</a></li>';
             echo '<li><a href="https://www.efset.org/cert/BhaM9J" target="_blank">EF Standard C2 - Mar 2021</a></li>';
-            echo '<li><a href="https://drive.google.com/file/d/1JPJSA42x207H96YWVGv18Txu9--tWIOG5/view" target="_blank">Propaedeutic certificate - Oct 2019</a></li>';
-            echo '<li><a href="https://drive.google.com/file/d/1Qao0pcCBPF8o106wHKpvBEJAS1xL1MV65/view" target="_blank">Socrates International Honour Society - Jul 2018</a></li>';
+            echo '<li><a href="https://drive.google.com/file/d/1PJSA42xZO7H96YWVGvI8TXu9-_tWIOG5/view" target="_blank">Propaedeutic certificate - Oct 2019</a></li>';
+            echo '<li><a href="https://drive.google.com/file/d/1Qao0pcCBPF8o1O6wHKpvBEJASlX1mv65/view" target="_blank">Socrates International Honour Society - Jul 2018</a></li>';
             echo '</ul>';
             break;    
         case 'websites':
