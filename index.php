@@ -149,6 +149,8 @@ if (isset($_GET['chapter'])) {
             break;
             case 'foss':
                 $repositories = [
+                    ['WebTeX', 'ASP .NET Server for Serving JIT Compiled LaTeX using ELDYN.'],
+                    ['ELDYN', 'The Dynamic Template Injector.'],
                     ['WindowsPhoneOnline', 'Source code for the Windows Phone Online archive website.'],
                     ['Roblocks', 'Accessible UI-driven programming for your product.'],
                     ['FeedSurf', 'RSS Client Application.'],
@@ -182,6 +184,7 @@ if (isset($_GET['chapter'])) {
                 break;
         case 'certificates':
             echo '<ul>';
+            echo '<li><a href="https://drive.google.com/file/d/1qJTBct3PHS05zffcaW-StX29zkyQhoJX/view" target="_blank">Basic Life Support (BLS) - Jan 2024</a></li>';
             echo '<li><a href="https://drive.google.com/file/d/1DOQnVn1TmEDZqkhhZ97tlCU_l0YzKN7F/view" target="_blank">Private Investigator (Particulier Onderzoeker) - Jan 2023</a></li>';
             echo '<li><a href="https://drive.google.com/file/d/1ANM7tgXQM07sVa0NbAaQ7vnKqWZ4PZsT/view" target="_blank">Marriage Officiant (Buitengewoon Ambtenaar Burgerlijke Stand) - Jan 2023</a></li>';
             echo '<li><a href="https://drive.google.com/file/d/190MfSSc8LXnYN6f1vzoOEor-50TPZkGl/view" target="_blank">Certificate of Competence - Jun 2022</a></li>';
@@ -197,6 +200,8 @@ if (isset($_GET['chapter'])) {
                 ['https://computepaper.com/', 'Blog dedicated to technology news.'],
                 ['https://windowsphone.online/', 'Project to archive Windows Phone history and ensure usability.'],
                 ['https://opensystemquery.nl/', 'Website in the context of open source software development.'],
+                ['https://eldyn.nl/', 'Website dedicated to ELDYN software.'],
+                ['https://webtex.nl/', 'Website demo for WebTeX project.'],
             ];
 
             // Use an unordered list to display the websites
