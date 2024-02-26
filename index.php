@@ -198,7 +198,7 @@ if (isset($_GET['chapter'])) {
         case 'websites':
             $websites = [
                 ['https://computepaper.com/', 'Blog dedicated to technology news.'],
-                ['https://windowsphone.online/', 'Project to archive Windows Phone history and ensure usability.'],
+                ['https://windowsphoneonline.com/', 'Project to archive Windows Phone history and ensure usability.'],
                 ['https://opensystemquery.nl/', 'Website in the context of open source software development.'],
                 ['https://eldyn.nl/', 'Website dedicated to ELDYN software.'],
                 ['https://webtex.nl/', 'Website demo for WebTeX project.'],
