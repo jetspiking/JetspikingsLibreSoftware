@@ -151,11 +151,14 @@ if (isset($_GET['chapter'])) {
                 $repositories = [
                     ['WebTeX', 'ASP .NET Server for Serving JIT Compiled LaTeX using ELDYN.'],
                     ['ELDYN', 'The Dynamic Template Injector.'],
+                    ['JetspikingsLibreSoftware', 'Source code for personal jetspiking.com website.'],
                     ['WindowsPhoneOnline', 'Source code for the Windows Phone Online archive website.'],
                     ['Roblocks', 'Accessible UI-driven programming for your product.'],
                     ['FeedSurf', 'RSS Client Application.'],
+                    ['MatchingXmas', 'Xmas matching game.'],
                     ['ClockPRO', 'A clock widget for Windows desktop.'],
                     ['PhotoviewPRO', 'A photoviewer application for Windows.'],
+                    ['ColorpickPRO', 'Source code for the website for the Colorpick - PRO software tool.'],
                     ['TotallyScans', 'Cross Platform GUI for VirusTotal.'],
                     ['ShutdownWizard', 'Classic shutdown wizard dialog opener for Windows.'],
                     ['AndME', 'Android Minimal Edition Launcher.'],
@@ -165,12 +168,14 @@ if (isset($_GET['chapter'])) {
                     ['TeleDesk', 'Cross-platform desktop application for NOS Teletekst.'],
                     ['WPAppInstall', 'Deploy apps to your (unlocked) Windows Phone 8 / 10 device(s).'],
                     ['OpenSystemQuery', 'Inspect your device and view the systems specifications.'],
-                    ['Blockworld', 'C++ / OpenGL Blockworld Demo.'],
+                    ['Blockworld', 'C++ / OpenGL Voxel Engine.'],
                     ['WindowsPhone_TicTacToe', 'Get TicTacToe Ultimate on your Windows 10 (Mobile) device.'],
                     ['WindowsPhone_HiddenLaunch', 'Get HiddenLaunch on your Windows 10 (Mobile) device.'],
                     ['WindowsPhone_FSAM', 'Get File System Access Modifier (FSAM) on your Windows 10 Mobile device.'],
                     ['WindowsPhone_WebWhatsApp', 'Get WebWhatsapp on your Windows 10 (Mobile) device.'],
+                    ['IoT_Exercises', 'IoT programming exercises.'],
                     ['Pimage', 'Swap every pixel from your favorite .png for a number in Pi.'],
+                    ['SmartMeter', 'Project to read display (Dutch) smart meter data.'],
                 ];
     
                 echo '<ul>';
@@ -202,6 +207,7 @@ if (isset($_GET['chapter'])) {
                 ['https://opensystemquery.nl/', 'Website in the context of open source software development.'],
                 ['https://eldyn.nl/', 'Website dedicated to ELDYN software.'],
                 ['https://webtex.nl/', 'Website demo for WebTeX project.'],
+                ['https://colorpick.nl/', 'Website for the Colorpick - PRO software tool.'],
             ];
 
             // Use an unordered list to display the websites
