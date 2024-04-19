@@ -149,6 +149,8 @@ if (isset($_GET['chapter'])) {
             break;
             case 'foss':
                 $repositories = [
+                    ['LUMOS', 'The Mock Operating System.'],
+                    ['SuperSonic', 'SuperSonic YouTubeExplode Educational Implementation.'],
                     ['WebTeX', 'ASP .NET Server for Serving JIT Compiled LaTeX using ELDYN.'],
                     ['ELDYN', 'The Dynamic Template Injector.'],
                     ['JetspikingsLibreSoftware', 'Source code for personal jetspiking.com website.'],
